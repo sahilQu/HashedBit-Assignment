@@ -1,0 +1,28 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.points-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.points-table th, .points-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.points-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.points-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.points-table tr:hover {
+  background-color: #ddd;
+}

@@ -1,0 +1,28 @@
+
+h2{
+    text-align: center;
+    color: red;
+}
+
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .movie-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-card h3 {
+    margin: 10px 0;
+  }
+  

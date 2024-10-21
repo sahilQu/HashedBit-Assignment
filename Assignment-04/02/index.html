@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Div Example</title>
+</head>
+<body>
+    <div id="container">
+    </div>
+
+    <script>
+        function createDiv(width, height, text) {
+            // Create a new div element
+            const newDiv = document.createElement('div');
+
+            // Set the width and height with 'px' as unit
+            newDiv.style.width = width + 'px';
+            newDiv.style.height = height + 'px';
+
+            // Set the text content
+            newDiv.textContent = text;
+
+            // Append the new div to the #container element
+            const container = document.getElementById('container');
+            container.appendChild(newDiv);
+        }
+
+        // Example usage
+        createDiv(250, 90, 'This is a dynamically created div');
+    </script>
+</body>
+</html>
